@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<about>
+    <me.jfenn.attribouter.wedges.AppWedge repo="jlelse/teleposter" />
+    <me.jfenn.attribouter.wedges.ContributorsWedge showDefaults="false">
+        <me.jfenn.attribouter.wedges.ContributorWedge
+            login="jlelse"
+            task="Developer" />
+    </me.jfenn.attribouter.wedges.ContributorsWedge>
+    <me.jfenn.attribouter.wedges.TranslatorsWedge>
+        <me.jfenn.attribouter.wedges.TranslatorWedge
+            locales="de"
+            login="florian19982" />
+    </me.jfenn.attribouter.wedges.TranslatorsWedge>
+    <me.jfenn.attribouter.wedges.LicensesWedge showDefaults="false">
+        <me.jfenn.attribouter.wedges.LicenseWedge repo="delight-im/Android-AdvancedWebView" />
+        <me.jfenn.attribouter.wedges.LicenseWedge repo="afollestad/material-dialogs" />
+        <me.jfenn.attribouter.wedges.LicenseWedge repo="kittinunf/Fuel" />
+        <me.jfenn.attribouter.wedges.LicenseWedge repo="TheAndroidMaster/Attribouter" />
+    </me.jfenn.attribouter.wedges.LicensesWedge>
+</about>

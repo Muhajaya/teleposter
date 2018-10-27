@@ -12,6 +12,7 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.input
 import com.afollestad.materialdialogs.list.listItemsSingleChoice
 import im.delight.android.webview.AdvancedWebView
+import me.jfenn.attribouter.Attribouter
 import java.net.URI
 
 class MainActivity : AppCompatActivity(), AdvancedWebView.Listener {
@@ -281,12 +282,8 @@ class MainActivity : AppCompatActivity(), AdvancedWebView.Listener {
 				startActivity(Intent.createChooser(shareIntent, getString(R.string.share)))
 				true
 			}
-			R.id.help -> {
-				MaterialDialog(this)
-						.title(R.string.help)
-						.message(R.string.help_text)
-						.positiveButton(android.R.string.ok)
-						.show()
+			R.id.about -> {
+				Attribouter.from(this).show()
 				true
 			}
 			R.id.login -> {
